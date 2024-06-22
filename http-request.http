@@ -1,0 +1,39 @@
+GET http://localhost:8086/customers
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImV4cCI6MTcxNjYzMzY4OCwiaWF0IjoxNzE2NjMzMDg4LCJzY29wZSI6IlVTRVIifQ.aqh5TzZQxNeobDfHWVCCbtaXnolO03sXSBGMnMvKDXjxIOp4n9wh66kQob23exhfL_pAxKo0Xw8LFZYhlrgvsg
+
+<> 2024-05-25T015430.200.json
+<> 2024-05-25T015130.200.json
+<> 2024-05-25T002533.200.json
+<> 2024-05-25T002442.200.json
+
+###
+GET http://localhost:8086/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTcxNjU5ODc3OSwiaWF0IjoxNzE2NTk4MTc5LCJzY29wZSI6IkFETUlOIFVTRVIifQ.NNqfQQ2QUEQITo3TDaeP7HKMAp1bR0bSpeDa_YuNjJbOdYiQ74Akwd6c4eSccGVKE-TzLuAMWHba23YoJn01aw
+
+<> 2024-05-25T004807.404.json
+<> 2024-05-25T004624.404.json
+
+
+###
+POST http://localhost:8086/auth/login
+Content-Type: application/x-www-form-urlencoded
+
+username=user1&password=12345
+
+<> 2024-05-25T014939.200.json
+<> 2024-05-25T014618.200.json
+
+
+
+###
+POST http://localhost:8086/customers
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImV4cCI6MTcxNjYzMzY4OCwiaWF0IjoxNzE2NjMzMDg4LCJzY29wZSI6IlVTRVIifQ.aqh5TzZQxNeobDfHWVCCbtaXnolO03sXSBGMnMvKDXjxIOp4n9wh66kQob23exhfL_pAxKo0Xw8LFZYhlrgvsg
+
+{
+ "name":"rim", "email":"rim@gmail.com"
+}
+
+
+###
